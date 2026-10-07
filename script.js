@@ -1,0 +1,1 @@
+const header=document.querySelector('header');window.addEventListener('scroll',()=>{header.style.background=window.scrollY>40?'#f4f0e8':'linear-gradient(#101910b8,transparent)';header.style.color=window.scrollY>40?'#20241f':'#fff'});
